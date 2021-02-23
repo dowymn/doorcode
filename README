@@ -1,0 +1,5 @@
+Just a little Java program made for fun, because I wanted to think about how a door which has to be unlocked with a "passcode" works (even if it's a bit obvious).
+
+I made it in two ways : 
+- the user types the full code and then the program checks if it is the good one. The door is unlocked after this.
+- the user types the code and the program checks if it is the good one in real time. The door is unlocked as soon as the full code is entered, no matter if something wrong has been typed before.
