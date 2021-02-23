@@ -23,9 +23,9 @@ public class DoorCode {
      */
     public DoorCode ( String code ) {
         if ( code == null ) {
-            this.code = new String("");
+            this.code = "";
         } else {
-            this.code = new String(code);
+            this.code = code;
         }
     }
 
@@ -37,7 +37,7 @@ public class DoorCode {
      * @return the String chains which contains the door
      */
     protected String getCode () {
-        return new String(this.code);
+        return this.code;
     }
 
 
